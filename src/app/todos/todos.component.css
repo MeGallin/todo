@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+.note {
+  color: #333;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1%;
+  font-family: 'Kalam', cursive;
+  font-size: 1.2em;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
+
+.yellow {
+  background: #eae672;
+}
+
+input[type=checkbox]:checked + span.line_through{
+text-decoration: line-through;
+color: red;
+background: lightblue;
+font-size: 0.8em;
+opacity: 0.5;
+}
